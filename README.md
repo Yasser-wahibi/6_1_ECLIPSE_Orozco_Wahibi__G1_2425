@@ -1,0 +1,1 @@
+El proyecto ha sido agotador pero con esfuerzo e inteligencia pudimos sacar un proyecto acpetable (diosito que llegue almenos al 5 porfavor). Hemos aprendido mucho a lo largo de eestas semanas y hemos llegado a la conclusion de que debiamnos estar mas atentos jajajajaja 
