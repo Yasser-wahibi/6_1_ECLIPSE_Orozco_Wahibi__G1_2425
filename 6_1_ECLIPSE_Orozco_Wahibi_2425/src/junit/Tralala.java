@@ -6,7 +6,7 @@ import java.util.List;
 public class Tralala {
 	
 	public static void canjearCanciones(Usuario usuario) {
-    // Comprobamos si el usuario tiene suficientes puntos
+    // Comprobamos si el usuario tiene suficientes puntos dsd
     if (usuario.getPuntos() < 100) {
         System.out.println("No tienes suficientes puntos para canjear canciones.");
         return ;
