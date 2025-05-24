@@ -9,7 +9,7 @@ public class Tralala {
     // Comprobamos si el usuario tiene suficientes puntos
     if (usuario.getPuntos() < 100) {
         System.out.println("No tienes suficientes puntos para canjear canciones.");
-        return;
+        return ;
     }
 
     // Obtenemos las canciones favoritas del usuario
@@ -38,9 +38,15 @@ public class Tralala {
 	}
 
 	
-	private static Cancion seleccionarCancion(List<Cancion> favoritas) {
+	public static Cancion seleccionarCancion(List<Cancion> favoritas) {
 		System.out.println("Elige que cacione quieres");
 		int elegir=0;
+		
+		if(favoritas==null || favoritas.isEmpty()) {
+			return null;
+			
+			
+		}
 		
 		
 		return favoritas.get(elegir) ;
